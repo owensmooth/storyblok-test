@@ -1,5 +1,3 @@
-import { ChevronRightIcon, StarIcon } from '@heroicons/react/20/solid'
-
 export default function Hero({ blok }) {
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
@@ -43,11 +41,6 @@ export default function Hero({ blok }) {
               <div className="mt-6">
                 <div className="inline-flex items-center divide-x divide-gray-300">
                   <div className="flex flex-shrink-0 pr-5">
-                    <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
-                    <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
-                    <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
-                    <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
-                    <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
                   </div>
                   <div className="min-w-0 flex-1 py-1 pl-5 text-sm text-gray-500 sm:py-3">
                     <span className="font-medium text-gray-900">Rated 5 stars</span> by over{' '}
