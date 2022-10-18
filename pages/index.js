@@ -6,6 +6,10 @@ import {
   getStoryblokApi,
   StoryblokComponent,
 } from "@storyblok/react";
+
+export const config = {
+  unstable_runtimeJS: false
+};
  
 export default function Home({ story, preview }) {
   story = useStoryblokState(story, {}, preview);
